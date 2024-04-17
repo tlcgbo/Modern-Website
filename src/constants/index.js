@@ -32,6 +32,29 @@ const Icons = [
     },
 ];
 
+const services = [
+
+    {
+        name: "benchmarks",
+        icon: icon1,
+        header: "Benchmarks",
+        para: "See how you stack up against comparable companies in similar stages."
+    },
+    {
+        name: "pricing",
+        icon: icon2,
+        header: "Pricing Audit",
+        para: "Benchmark the health of your monetization and pricing strategy."
+    },
+    {
+        name: "retention",
+        icon: icon3,
+        header: "Retention Audit",
+        para: "Audit where revenue leakage exists and where you can increase retention.",
+    }
+]
+
 export {
     Icons,
+    services,
 }

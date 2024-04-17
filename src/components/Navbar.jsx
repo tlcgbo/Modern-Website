@@ -22,13 +22,13 @@ function Navbar() {
   return (
     <>
         {/*Desktop Navbar */}
-        <nav className="nav-full sticky top-0 flex md:flex justify-between pt-5 z-10 h-5">
-            <div className="nav-container flex justify-between w-[75%] mx-auto">
+        <nav className=" bg-[#192957]  nav-full sticky top-0 flex md:flex justify-between pt-5 z-10 h-5">
+            <div className="  nav-container flex justify-between w-[75%] mx-auto">
                 <div className="">
                     <img src={logo} alt="Logo for page" className="" />
                 </div>
 
-                <ul className="flex justify-around w-[10cm] pt-2 text-[18px]">
+                <ul className=" flex justify-around w-[10cm] pt-2 text-[18px]">
                     <li>Home</li>
                     <li>Features</li>
                     <li>Pricing</li>
@@ -48,7 +48,7 @@ function Navbar() {
 
        {/* Mobile Navbar */}
         
-        <nav className="md:hidden flex justify-center fixed z-10 w-[90vw] h-[15vh]" >
+        <nav className=" bg-[#192957] md:hidden flex justify-center fixed z-10 w-[90vw] h-[15vh]" >
             <div className="nav-container pt-5 flex justify-between w-[90%]">
                 <div className="">
                     <img src={logo} alt="Logo for page" className="" />
@@ -104,6 +104,7 @@ function Navbar() {
         </motion.aside>
       )}
         </AnimatePresence>
+        
     </>
   );
 }
