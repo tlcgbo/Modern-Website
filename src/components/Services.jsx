@@ -11,7 +11,7 @@ function Services(){
     }, []);
 
   return (
-    <div className=' bg-[#192957] flex justify-start items-end h-[50vh] services ' >
+    <div className='text-white flex justify-start items-end h-[50vh] services ' >
         {services.map((service) => (
             <div
                 data-aos="flip-left"
@@ -21,8 +21,8 @@ function Services(){
                 key={service.name}
             >
                 <img src={service.icon} alt="" />
-                <h1 className=' text-center font-bold text-[24px] leading-[36px] tracking-[-0.75px] pr-[4vw]'>{service.header}</h1>
-                <p className='w-[307px] text-center text-[16px] leading-[24px] text-[#696871] tracking-[-0.5px] font-[Mulish] mt-[20px]'>{service.para}</p>
+                <h1 className=' text-center font-bold text-[28px] leading-[36px] tracking-[-0.75px] pr-[4vw]'>{service.header}</h1>
+                <p className='w-[307px] text-center text-[20px] leading-[24px] text-[#848387] tracking-[-0.5px] font-[Mulish] mt-[20px]'>{service.para}</p>
             </div>
         ))}
     </div>

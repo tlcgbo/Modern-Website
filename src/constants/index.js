@@ -54,7 +54,61 @@ const services = [
     }
 ]
 
+const plans = [
+    {
+        title: "Starter",
+        price: "Free",
+        specs: [
+            "1 Website",
+            "5 GB hosting",
+            "Limited Support",
+        ],
+        button: "Get Started",
+    },
+    {
+        title: "Premium",
+        price: "$29/month",
+        specs: [
+          "10 Website",
+          "15 GB Hosting",
+          "Premium Support",
+        ], 
+        button: "Get Started",
+      },
+      {
+        title: "Enterprise",
+        price: "$49/month",
+        specs: [
+          "Unlimited Website",
+          "50 GB Hosting",
+          "Premium Support",
+        ], 
+        button:"Get Started",
+      }
+]
+
+const navLinks = [
+    {
+      id: "home",
+      title: "Home",
+    },
+    {
+      id: "features",
+      title: "Features",
+    },
+    {
+      id: "pricing",
+      title: "Pricing",
+    },
+    {
+      id: "blog",
+      title: "Blog",
+    },
+  ];
+
 export {
     Icons,
     services,
+    plans,
+    navLinks,
 }

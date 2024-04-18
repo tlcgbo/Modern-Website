@@ -22,13 +22,13 @@ function Navbar() {
   return (
     <>
         {/*Desktop Navbar */}
-        <nav className=" bg-[#192957]  nav-full sticky top-0 flex md:flex justify-between pt-5 z-10 h-5">
+        <nav className="nav-full sticky top-0 flex md:flex justify-between pt-5 z-10 h-5">
             <div className="  nav-container flex justify-between w-[75%] mx-auto">
                 <div className="">
                     <img src={logo} alt="Logo for page" className="" />
                 </div>
 
-                <ul className=" flex justify-around w-[10cm] pt-2 text-[18px]">
+                <ul className=" text-white  flex justify-around w-[10cm] pt-2 text-[18px]">
                     <li>Home</li>
                     <li>Features</li>
                     <li>Pricing</li>
