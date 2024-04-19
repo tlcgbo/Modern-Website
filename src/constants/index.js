@@ -38,7 +38,7 @@ const services = [
         name: "benchmarks",
         icon: icon1,
         header: "Benchmarks",
-        para: "See how you stack up against comparable companies in similar stages."
+        para: "The process of measuring and baselining the performance of your codel"
     },
     {
         name: "pricing",
@@ -59,28 +59,28 @@ const plans = [
         title: "Starter",
         price: "Free",
         specs: [
-            "1 Website",
-            "5 GB hosting",
+            "1 email a week",
+            "No practice questions",
             "Limited Support",
         ],
         button: "Get Started",
     },
     {
         title: "Premium",
-        price: "$29/month",
+        price: "£29/month",
         specs: [
-          "10 Website",
-          "15 GB Hosting",
+          "10 emails a week",
+          "15 practice questions",
           "Premium Support",
         ], 
         button: "Get Started",
       },
       {
         title: "Enterprise",
-        price: "$49/month",
+        price: "£49/month",
         specs: [
-          "Unlimited Website",
-          "50 GB Hosting",
+          "Live Q&A sessions",
+          "Unlimited practice questions",
           "Premium Support",
         ], 
         button:"Get Started",
