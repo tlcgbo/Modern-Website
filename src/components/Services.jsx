@@ -1,5 +1,6 @@
 import { useEffect } from "react"
 import { services } from "../constants"
+import { Link } from "react-router-dom"
 import SectionWrapper from "../hoc/SectionWrapper"
 import Aos from "aos"
 import "aos/dist/aos.css"

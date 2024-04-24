@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import SectionWrapper from '../hoc/SectionWrapper'
 import { downArrow, earth_light } from '../assets'
 import { motion, useAnimation } from 'framer-motion'

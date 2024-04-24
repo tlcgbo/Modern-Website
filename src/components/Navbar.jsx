@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { logo, menu, close } from "../assets";
 import { AnimatePresence, motion, useAnimation } from "framer-motion";
 import { sideVariants, itemVariants } from "../utils/motion";
@@ -12,6 +13,7 @@ function Navbar() {
     const handleHover = () => {
         controls.start({ x: [0, -5, 5, -5, 0], transition: { duration: 0.7 } });
     };
+
 
     const handleMobileMenuToggle = () => {
         setIsMobileMenuOpen((prevState) => !prevState);
@@ -30,7 +32,11 @@ function Navbar() {
 
                 <ul className=" text-white  flex justify-around w-[10cm] pt-2 text-[18px]">
                     <li>Home</li>
-                    <li>Features</li>
+
+                    <Link to="/features">
+                        <li>Features</li>
+                    </Link>
+                    
                     <li>Pricing</li>
                     <li>Blog</li>
                 </ul>

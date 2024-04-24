@@ -4,6 +4,7 @@ import { plans } from '../constants'
 import "aos/dist/aos.css"
 import Aos from 'aos'
 import { useEffect } from 'react'
+import { Link } from 'react-router-dom'
 import { motion, useAnimation } from 'framer-motion'
 
 function SubPlans() {

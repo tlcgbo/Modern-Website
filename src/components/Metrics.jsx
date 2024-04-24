@@ -1,5 +1,6 @@
 import SectionWrapper from "../hoc/SectionWrapper"
 import Aos from "aos"
+import { Link } from "react-router-dom"
 import "aos/dist/aos.css"
 import { useEffect } from "react"
 
