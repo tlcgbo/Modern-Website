@@ -1,10 +1,10 @@
 import { useEffect } from "react"
-import Hero from "../Hero";
-import Metrics from "../Metrics";
-import Services from "../Services";
-import SubIndex from "../SubIndex";
-import Pricing from "../Pricing";
-import Blog from "../Blog";
+import Hero from "../components/Hero";
+import Metrics from "../components/Metrics";
+import Services from "../components/Services";
+import SubIndex from "../components/SubIndex";
+import Pricing from "../components/Pricing";
+import Blog from "../components/Blog";
 
 const Homepage = () => {
     useEffect(() => {
@@ -18,7 +18,6 @@ const Homepage = () => {
             <Metrics />
             <Services />
             <SubIndex />
-            <Blog />
             <Pricing />
         </div>
     </>

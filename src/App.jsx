@@ -8,7 +8,7 @@ import Services from './components/Services'
 import SubIndex from './components/SubIndex'
 import Pricing from './components/Pricing'
 import Blog from './components/Blog'
-import Homepage from './components/pages/Homepage'
+import Homepage from './pages/Homepage'
 
 const App = () => {
   return (
@@ -20,10 +20,13 @@ const App = () => {
 
           <Route path="/" element={<Homepage />} />
           <Route path="/features" element={<Metrics />} ></Route>
-
+          <Route path="/blog" element={<Blog />}></Route>
+          <Route path="/subindex" element={<SubIndex />}></Route>
+          <Route path="/pricing" element={<Pricing />}></Route>
 
 
         </Routes>
+        
     </Router>
   )
 }

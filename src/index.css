@@ -103,12 +103,13 @@ body{
         width: 80vw;
         padding-right: 2.5vw;
     }
-    
+
     .metrics > p{
         width: 75vw;
         padding-right: 8vw;
         margin-left: 2vw;
     }
+
 
     .services{
         flex-direction: column;
@@ -240,6 +241,11 @@ body{
         padding-left: 7rem;
         padding-right: 13rem;
     }
+
+    
+
+
+
 
     .services{
         flex-direction: column;

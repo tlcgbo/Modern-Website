@@ -31,14 +31,29 @@ function Navbar() {
                 </div>
 
                 <ul className=" text-white  flex justify-around w-[10cm] pt-2 text-[18px]">
-                    <li>Home</li>
+                    <Link to="/">
+                        <li>Home</li>
+                    </Link>
+                    
 
                     <Link to="/features">
                         <li>Features</li>
                     </Link>
                     
-                    <li>Pricing</li>
-                    <li>Blog</li>
+
+
+                    <Link to="/blog">
+                        <li>Blog</li>
+                    </Link>
+
+                    <Link to="/subindex">
+                        <li>Sub Index</li>
+                    </Link>
+                  
+                    <Link to="/pricing">
+                        <li>Pricing</li>
+                    </Link>
+                    
                 </ul>
 
                 <motion.button
@@ -95,10 +110,26 @@ function Navbar() {
             variants={sideVariants}
             className="container md:hidden flex flex-col fixed bg-[#5454D4] text-white w-[55vw] ml-[35vw] mt-[10vh] h-[350px] items-end pr-[18vw] z-10 rounded-2xl pt-4">
                 <ul className="text-[20px] mr-[-25px] p-5">
-                    <motion.li variants={itemVariants} className="mb-6">Home</motion.li>
-                    <motion.li variants={itemVariants} className="mb-6">Features</motion.li>
+
+                    <Link to="/">
+                        <motion.li variants={itemVariants} className="mb-6">Home</motion.li>
+                    </Link>
+                    <Link to="/features">
+                        <motion.li variants={itemVariants} className="mb-6">Features</motion.li>
+                    </Link>
                     <motion.li variants={itemVariants} className="mb-6">Pricing</motion.li>
-                 <motion.li variants={itemVariants} className="mb-6">Blog</motion.li>
+
+                    <Link to="/blog">
+                        <motion.li variants={itemVariants} className="mb-6">Blog</motion.li>
+                    </Link>
+
+                    <Link to="/subindex">
+                        <motion.li variants={itemVariants} className="mb-6">Sub Index</motion.li>
+                    </Link>
+
+                    <Link to="/pricing">
+                        <motion.li variants={itemVariants} className="mb-6">Pricing</motion.li>
+                    </Link>
                 </ul>
                 <motion.button
                  variants={itemVariants}
