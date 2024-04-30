@@ -6,6 +6,7 @@ import Aos from "aos"
 import "aos/dist/aos.css"
 import { Link } from "react-router-dom"
 import { useEffect } from "react"
+import Pricing from "./Pricing"
 
 function SubIndex() {
 
@@ -14,6 +15,7 @@ function SubIndex() {
    }, [])
 
   return (
+    <>
     <div className="subIndex flex justify-center items-center w-full ml-[-4vw]">
         <motion.img
             variants={zoomIn('0.2', '1')}
@@ -27,7 +29,12 @@ function SubIndex() {
             <p className=" text-[25px] leading-[30px] text-[#9c9c9e] tracking-[-0.63px] font-['Mulish'] w-[82%]">Daily news to keep you up to date on the technological market trends and what's happening in your world.</p>
             <p className="font-bold text-[17px] text-[#8f8ffa] cursor-pointer pt-[30px]">Learn more</p>
         </div>
+
+       
     </div>
+        <Pricing />
+
+    </>
   )
 }
 
