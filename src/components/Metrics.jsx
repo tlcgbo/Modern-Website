@@ -19,7 +19,6 @@ function Metrics() {
       <p className=" text-[25px] leading-[30px] text-[#a3a2a6] tracking-[-0.63px] font-['Mulish'] w-[456px] ml-[28px]">Accurate, real-time reporting at your fingertips. Getting data has never been easier.</p>
       <p className="font-bold text-[17px] text-[#a6a6fb] cursor-pointer pt-[30px] ml-[28px]">Learn more</p>
 
-        <Services />
         
     </div>
     

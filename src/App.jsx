@@ -9,6 +9,7 @@ import SubIndex from './components/SubIndex'
 import Pricing from './components/Pricing'
 import Blog from './components/Blog'
 import Homepage from './pages/Homepage'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -23,10 +24,10 @@ const App = () => {
           <Route path="/blog" element={<Blog />}></Route>
           <Route path="/subindex" element={<SubIndex />}></Route>
           <Route path="/pricing" element={<Pricing />}></Route>
-
+          
 
         </Routes>
-        
+      <Footer />
     </Router>
   )
 }

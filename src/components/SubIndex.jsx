@@ -32,7 +32,6 @@ function SubIndex() {
 
        
     </div>
-        <Pricing />
 
     </>
   )

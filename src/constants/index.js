@@ -106,9 +106,53 @@ const navLinks = [
     },
   ];
 
+  const footlinks = [
+    {
+     name: 'Links',
+     links: [
+       {
+         name: 'About',
+         id: '/about',
+       },
+       {
+         name: 'Projects',
+         id: '/#projects',
+       },
+       {
+         name: 'Tech Stack',
+         id: '/stack',
+       },
+       {
+         name: 'Contact',
+         id: '/contact',
+       },
+     ]
+    },
+    {
+     name: 'Elsewhere',
+     links: [
+       {
+         name: 'Email',
+         id: '',
+       },
+       {
+         name: 'LinkedIn',
+         id: '',
+       },
+       {
+         name: 'GitHub',
+         id: '',
+       },
+     ]
+    }
+   
+   ]
+
+
 export {
     Icons,
     services,
     plans,
     navLinks,
+    footlinks,
 }
